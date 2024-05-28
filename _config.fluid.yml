@@ -9,24 +9,35 @@ description: ''
 keywords:
 author: Joan Chen
 language: zh-CN
-timezone: ''
+timezone: 'Asia/Shanghai'
 
 # 博客标题
 navbar:
-  blog_title: Unknown816's Blog
+  blog_title: Joan Chen's Blog
 
+# 夜间模式
 dark_mode:
   enable: true
   default: auto
 
+# 图片懒加载
+lazyload:
+  enable: true
+  loading_img: /img/loading.gif
+  onlypost: false
+  offset_factor: 2
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://unknown816.github.io/blog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+# Favicon
+favicon: /img/favicon/favicon.ico
+apple_touch_icon: /img/favicon/apple-touch-icon.png
 
 # Directory
 source_dir: source
@@ -37,6 +48,41 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
+
+# 首页
+index:
+  banner_img: /img/bg/home.png
+  slogan:
+    enable: true
+    text: Joan Chen 的个人博客
+# 归档
+archive:
+  banner_img: /img/bg/default.jpg
+  banner_img_height: 60
+# 分类
+category:
+  banner_img: /img/bg/default.jpg
+  banner_img_height: 60
+# 标签
+tag:
+  banner_img: /img/bg/default.jpg
+  banner_img_height: 60
+# 关于
+about:
+  avatar: /img/avatar.png
+  banner_img: /img/bg/about.png
+  banner_img_height: 60
+  name: "Fluid"
+  intro: "An elegant theme for Hexo"
+  icons:
+    - { class: 'iconfont icon-github-fill', link: 'https://github.com/Unknown816', tip: 'GitHub' }
+    - { class: 'iconfont icon-wechat-fill', qrcode: '/img/link/wechat.png' }
+# 文章页
+post:
+  banner_img: /img/bg/default.jpg
+  default_index_img: /img/post_default.jpg
+  banner_img_height: 40
+  banner_mask_alpha: 0.3
 
 # Writing
 new_post_name: :title.md # File name of new posts
