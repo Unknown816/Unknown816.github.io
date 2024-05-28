@@ -27,6 +27,9 @@ lazyload:
   onlypost: false
   offset_factor: 2
 
+# 压缩source目录图片
+all_minifier: true
+
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://unknown816.github.io
