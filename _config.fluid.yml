@@ -20,6 +20,12 @@ dark_mode:
   enable: true
   default: auto
 
+# 自定义js
+custom_js:
+  - /js/DynamicRibbon.js
+  - /js/DynamicFog.js
+  - /js/GiscusFix.js
+
 # 图片懒加载
 lazyload:
   enable: true
@@ -54,7 +60,7 @@ skip_render:
 
 # 首页
 index:
-  banner_img: /img/bg/home.png
+  banner_img: /img/bg/home.jpg
   slogan:
     enable: true
     text: Joan Chen 的个人博客
@@ -73,7 +79,7 @@ tag:
 # 关于
 about:
   avatar: /img/avatar.png
-  banner_img: /img/bg/about.png
+  banner_img: /img/bg/about.jpg
   banner_img_height: 60
   name: "Fluid"
   intro: "An elegant theme for Hexo"
